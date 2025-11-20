@@ -37,15 +37,15 @@ SQLLite Database
 
 Endpoints:
 
-GET /api/payments
-
-POST /api/payments
-
-PUT /api/payments/{id}
-
-DELETE /api/payments/{id}
-
-GET /api/payments/{id}
+    GET /api/payments
+    
+    POST /api/payments
+    
+    PUT /api/payments/{id}
+    
+    DELETE /api/payments/{id}
+    
+    GET /api/payments/{id}
 
 # 📦 Features
 Payments List Page
