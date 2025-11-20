@@ -16,7 +16,7 @@ It consumes a backend built with .NET Core and exposes features to:
 ✔ Display payment reference numbers (e.g., PAY-20250110-0001)
 
 
-🚀 Tech Stack
+# 🚀 Tech Stack
 Frontend
 
 Angular 20
@@ -46,3 +46,44 @@ PUT /api/payments/{id}
 DELETE /api/payments/{id}
 
 GET /api/payments/{id}
+
+# 📦 Features
+Payments List Page
+
+Material Data Table showing:
+
+Reference
+
+Amount
+
+Currency
+
+CreatedAt
+
+Material buttons for Edit & Delete
+
+"Add Payment" button opens dialog
+
+Add / Edit Payment
+
+Opens a Material Dialog
+
+Fields:
+
+Amount
+
+Currency (USD, EUR, INR, GBP)
+
+Client-side UUID generated as clientRequestId
+
+On Save → Calls backend
+
+On Edit → Pre-fills values
+
+# Validation
+
+amount > 0
+
+allowed currencies
+
+duplicate requests prevented by backend
