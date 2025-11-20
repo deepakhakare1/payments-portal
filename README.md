@@ -50,40 +50,40 @@ GET /api/payments/{id}
 # 📦 Features
 Payments List Page
 
-Material Data Table showing:
-
-Reference
-
-Amount
-
-Currency
-
-CreatedAt
-
-Material buttons for Edit & Delete
-
-"Add Payment" button opens dialog
+    Material Data Table showing:
+    
+    Reference
+    
+    Amount
+    
+    Currency
+    
+    CreatedAt
+    
+    Material buttons for Edit & Delete
+    
+    "Add Payment" button opens dialog
 
 Add / Edit Payment
 
-Opens a Material Dialog
-
-Fields:
-
-Amount
-
-Currency (USD, EUR, INR, GBP)
-
-Client-side UUID generated as clientRequestId
-
-On Save → Calls backend
-
-On Edit → Pre-fills values
+    Opens a Material Dialog
+    
+    Fields:
+    
+    Amount
+    
+    Currency (USD, EUR, INR, GBP)
+    
+    Client-side UUID generated as clientRequestId
+    
+    On Save → Calls backend
+    
+    On Edit → Pre-fills values
 
 # Validation
 
-amount > 0
-
-allowed currencies
-
-duplicate requests prevented by backend
+    amount > 0
+    
+    allowed currencies
+    
+    duplicate requests prevented by backend
